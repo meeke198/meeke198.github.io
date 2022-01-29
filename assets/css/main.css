@@ -3063,6 +3063,7 @@ header > h4 + p {
 }
 
 header.major {
+  display: flex;
   margin: 0 0 4rem 0;
   text-align: center;
 }
@@ -3097,6 +3098,15 @@ header.major > .date:before {
 
 header.major > .date:after {
   right: 0;
+}
+
+#profile-img{
+width: 100%;
+padding-right: 35px;
+
+}
+.content-wrapper{
+  display: flex;
 }
 
 @media screen and (max-width: 980px) {
@@ -3869,6 +3879,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #nav ul.links li.active {
   background-color: #ffffff;
+  font-size: 20px;
+  padding: auto 10px;
+
 }
 
 #nav ul.links li.active a {
@@ -3877,6 +3890,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #nav ul.links li.active a:hover {
   color: #368B85 !important;
+  
 }
 
 #nav ul.icons {
@@ -3939,6 +3953,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #main > .post.featured {
   text-align: center;
+  padding: 20px 35px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -4013,6 +4028,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #main > .posts > article > :last-child {
   margin-bottom: 0;
+  margin-left: 0;
+
 }
 
 #main > .posts > article:nth-child(2n - 1) {
