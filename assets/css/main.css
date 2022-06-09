@@ -3879,8 +3879,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #nav ul.links li.active {
   background-color: #ffffff;
-  font-size: 20px;
-  padding: auto 10px;
+  font-size: 18px;
+  padding: auto 8px;
 
 }
 
