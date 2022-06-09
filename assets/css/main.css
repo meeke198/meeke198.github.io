@@ -3101,8 +3101,8 @@ header.major > .date:after {
 }
 
 #profile-img{
-width: 100%;
-padding-right: 35px;
+width: 70%;
+/* padding-right: 25px; */
 
 }
 .content-wrapper{
