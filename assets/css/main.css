@@ -3955,6 +3955,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
   padding: 20px 35px;
 }
+#main > .post > .technologies {
+  font-weight: bolder;
+}
 
 @media screen and (max-width: 1280px) {
   #main > .post {
